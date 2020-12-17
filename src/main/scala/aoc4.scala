@@ -2,9 +2,8 @@ import scala.io.Source
 import scala.language.postfixOps
 
 object aoc4 extends App {
+  val xs = Source.fromFile("input/in4").getLines.mkString("\t").split("\t\t")
   val fs = List("byr","iyr","eyr","hgt","hcl","ecl","pid")
-  val filename = "input/in4"
-  val xs = Source.fromFile(filename).getLines.mkString("\t").split("\t\t")
   val vs = xs filterNot (x=> fs.exists(!x.contains(_)))
   val res = vs filter rules
   println(res.size)

@@ -2,9 +2,8 @@ import scala.io.Source
 
 object aoc2 extends App {
 
-  val filename = "input/in2"
   val xs = for (
-    line <- Source.fromFile(filename).getLines
+    line <- Source.fromFile("input/in2").getLines
 ) yield line.split(" ").toList
   val res = xs.toList.filter(x=> {
     val ch =  "[a-z]".r.findFirstIn(x(1)).getOrElse("0").toCharArray.head

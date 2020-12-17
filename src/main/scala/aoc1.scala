@@ -1,10 +1,8 @@
 import scala.io.Source
 
 object aoc1 extends App {
-
-  val filename = "input/in1"
   val xs = for (
-    line <- Source.fromFile(filename).getLines
+    line <- Source.fromFile("input/in1").getLines
   ) yield line.toInt
   val ts = xs.toList;
   val ys = for(
