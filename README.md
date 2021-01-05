@@ -1,5 +1,4 @@
 # advent-of-code2020
-# advent-of-code-2019
 * [Day 1](https://adventofcode.com/2020/day/1): [solution](https://github.com/dupdup/advent-of-code2020/blob/master/src/main/scala/ac1.scala)
 * [Day 2](https://adventofcode.com/2020/day/2): [solution](https://github.com/dupdup/advent-of-code2020/blob/master/src/main/scala/ac2.scala)
 * [Day 3](https://adventofcode.com/2020/day/3): [solution](https://github.com/dupdup/advent-of-code2020/blob/master/src/main/scala/ac3.scala)
